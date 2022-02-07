@@ -1,0 +1,51 @@
+$white:#FFFFFF;
+$lightBlue:#c7eefe;
+$blue: #01d0ff;
+$accent:#f77bf9;
+
+%font-bebas-blue {
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $lightBlue; 
+}
+
+%font-bebas-white {
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $white; 
+}
+
+%font-bebas {
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+%gradient-text {
+    color: #01d0ff;
+    background: linear-gradient(-52deg, #ffa1ff 0%, #01d0ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        background: none;
+    }
+}
+
+%gradient-text-invers {
+    color: #01d0ff;
+    background: linear-gradient(67deg, #ffa1ff 0%, #01d0ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        background: none;
+    }
+}
