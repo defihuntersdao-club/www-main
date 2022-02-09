@@ -34,7 +34,24 @@ window.onload = function() {
     }
   };
 
+  let links = document.querySelectorAll('.top-menu a[href*="#"]');
   
- 
+  for (let i=0; i<links.length;i++) {
+    links[i].onclick = function(e) {
+    
+      let blockID = links[i].getAttribute('href').substr(1);
+      let block = document.getElementById(blockID);
+      if(block) {
+        e.preventDefault();
+        block.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+      
+    }
+  }
+
+
 
 }
