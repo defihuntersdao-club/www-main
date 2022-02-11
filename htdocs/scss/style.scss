@@ -790,7 +790,7 @@ body.mobile .overlay {
         }
         & ul {
             left: 0;
-            max-width: 450px;
+            max-width: 394px;
             margin: 0 auto 20px;
             @media (max-width: 500px) {
                 margin: 0 0 10px;
@@ -799,7 +799,7 @@ body.mobile .overlay {
             & li {
                 list-style: none;
                 @extend %font-bebas-blue;
-                font-size: 24px;
+                font-size: 22px;
                 @media (max-width: 500px) {
                     font-size: 14px;
                 }
@@ -834,9 +834,31 @@ body.mobile .overlay {
         }
     }
     &__wrap {
-        padding-bottom: 130px;
+        padding-bottom: 0;
         @media (max-width: 500px) {
             padding-bottom: 0;
+        }
+    }
+    &__bl-text {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 80px;
+        @media (max-width: 500px) {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        & p {
+            width: 90%;
+            margin: 0 auto;
+            font-size: 18px;
+            @media (max-width: 500px) {
+                font-size: 14px;
+            }
+            & strong {
+                font-weight: normal;
+                color: $lightBlue;
+                text-transform: uppercase;
+            }
         }
     }
     &__bl-right {
@@ -1470,7 +1492,8 @@ footer {
     &__copy {
         padding-top: 24px;
         position: relative;
-        max-width: 272px;
+        max-width: 284px;
+        width: 100%;
         @extend %font-bebas-blue;
         font-size: 18px;
         letter-spacing: 2px;

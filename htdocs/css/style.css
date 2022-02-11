@@ -1052,7 +1052,7 @@ body.mobile .overlay {
 
 .join-dao .quote-block ul {
   left: 0;
-  max-width: 450px;
+  max-width: 394px;
   margin: 0 auto 20px;
 }
 
@@ -1065,7 +1065,7 @@ body.mobile .overlay {
 
 .join-dao .quote-block ul li {
   list-style: none;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 @media (max-width: 500px) {
@@ -1110,13 +1110,44 @@ body.mobile .overlay {
 }
 
 .fishes__wrap {
-  padding-bottom: 130px;
+  padding-bottom: 0;
 }
 
 @media (max-width: 500px) {
   .fishes__wrap {
     padding-bottom: 0;
   }
+}
+
+.fishes__bl-text {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 500px) {
+  .fishes__bl-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.fishes__bl-text p {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+@media (max-width: 500px) {
+  .fishes__bl-text p {
+    font-size: 14px;
+  }
+}
+
+.fishes__bl-text p strong {
+  font-weight: normal;
+  color: #c7eefe;
+  text-transform: uppercase;
 }
 
 .fishes__bl-right {
@@ -1910,7 +1941,8 @@ footer {
 .footer__copy {
   padding-top: 24px;
   position: relative;
-  max-width: 272px;
+  max-width: 284px;
+  width: 100%;
   font-size: 18px;
   letter-spacing: 2px;
   line-height: 150%;
