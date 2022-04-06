@@ -1052,8 +1052,8 @@ body.mobile .overlay {
 
 .join-dao .quote-block ul {
   left: 0;
-  max-width: 394px;
-  margin: 0 auto 20px;
+  max-width: 473px;
+  margin: 0 auto 42px;
 }
 
 @media (max-width: 500px) {
@@ -1072,6 +1072,14 @@ body.mobile .overlay {
   .join-dao .quote-block ul li {
     font-size: 14px;
   }
+}
+
+.join-dao .quote-block ul li.gray {
+  color: #cbcbcb;
+}
+
+.join-dao .quote-block ul li span {
+  font-size: 12px;
 }
 
 .join-dao .quote-block p {
@@ -1430,7 +1438,7 @@ body.mobile .overlay {
   position: absolute;
   top: 4px;
   left: 50%;
-  margin-left: -890px;
+  margin-left: -915px;
 }
 
 @media (max-width: 500px) {
@@ -1438,7 +1446,7 @@ body.mobile .overlay {
     width: 400px;
     max-width: 400px;
     top: 2px;
-    margin-left: -444px;
+    margin-left: -470px;
   }
 }
 
@@ -1448,7 +1456,7 @@ body.mobile .overlay {
   position: absolute;
   top: 4px;
   right: 50%;
-  margin-right: -890px;
+  margin-right: -915px;
 }
 
 @media (max-width: 500px) {
@@ -1456,7 +1464,7 @@ body.mobile .overlay {
     width: 400px;
     max-width: 400px;
     top: 2px;
-    margin-right: -444px;
+    margin-right: -470px;
   }
 }
 
@@ -2254,5 +2262,13 @@ footer {
   .one-column.content .subtitle br {
     display: none;
   }
+}
+
+.one-column.content .subtitle .small {
+  text-transform: none;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Rubik';
+  line-height: 1;
 }
 /*# sourceMappingURL=style.css.map */

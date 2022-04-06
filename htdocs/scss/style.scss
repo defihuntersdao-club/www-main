@@ -790,8 +790,8 @@ body.mobile .overlay {
         }
         & ul {
             left: 0;
-            max-width: 394px;
-            margin: 0 auto 20px;
+            max-width: 473px;
+            margin: 0 auto 42px;
             @media (max-width: 500px) {
                 margin: 0 0 10px;
                 padding: 0;
@@ -802,6 +802,12 @@ body.mobile .overlay {
                 font-size: 22px;
                 @media (max-width: 500px) {
                     font-size: 14px;
+                }
+                &.gray {
+                    color: #cbcbcb;
+                }
+                & span {
+                    font-size: 12px;
                 }
             }
         }
@@ -1079,12 +1085,12 @@ body.mobile .overlay {
         position: absolute;
         top: 4px;
         left: 50%;
-        margin-left: -890px;
+        margin-left: -915px;
         @media (max-width: 500px) {
             width: 400px;
             max-width: 400px;
             top: 2px;
-            margin-left: -444px;
+            margin-left: -470px;
         }
     }
     & .line-right {
@@ -1093,12 +1099,12 @@ body.mobile .overlay {
         position: absolute;
         top: 4px;
         right: 50%;
-        margin-right: -890px;
+        margin-right: -915px;
         @media (max-width: 500px) {
             width: 400px;
             max-width: 400px;
             top: 2px;
-            margin-right: -444px;
+            margin-right: -470px;
         }
     }
     & .title-bl {
@@ -1727,5 +1733,12 @@ footer {
         & br {
             display: none;
         }
+    }
+    & .small {
+        text-transform: none;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: 'Rubik';
+        line-height: 1;
     }
 }
